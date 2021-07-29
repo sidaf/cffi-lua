@@ -18,6 +18,9 @@
 #include <cstdint>
 #include <climits>
 #include <cfloat>
+#ifdef _MSC_VER
+#include <new>
+#endif
 
 /* allocation */
 
